@@ -1,4 +1,4 @@
-extends KinematicBody2D
+extends CharacterBody2D
 
 var velocidad = 500
 var gravedad = 2000
@@ -9,7 +9,10 @@ var movimiento = Vector2.ZERO
 func _physics_process(delta):
 	get_input()
 	movimiento.y += gravedad * delta
-	movimiento = move_and_slide(movimiento, Vector2.UP)
+	set_velocity(movimiento)
+	set_up_direction(Vector2.UP)
+	move_and_slide()
+	#movimiento = velocity
 	
 	if Input.is_action_just_pressed("jump"):
 		#velocity.y = -180

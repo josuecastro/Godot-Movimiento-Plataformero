@@ -1,0 +1,8 @@
+2a60927148abd1d33b818b535e306557
+::res://::1686688424
+bloque.jpg::CompressedTexture2D::191900868386477970::1686621089::1686621176::1::::<><>::
+default_env.tres::Environment::4714417043209729168::1686676781::0::1::::<><>::
+icon.png::CompressedTexture2D::6563538075013577964::1686621089::1686621176::1::::<><>::
+Jugador.gd::GDScript::-1::1686623523::0::1::::<>CharacterBody2D<>::
+Jugador.tscn::PackedScene::-1::1686621166::0::1::::<><>::res://icon.png<>res://Jugador.gd
+Nivel.tscn::PackedScene::6289199550623768909::1686676781::0::1::::<><>::res://Jugador.tscn<>uid://cy7txvpat44m
